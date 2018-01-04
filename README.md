@@ -5,18 +5,18 @@
 
 ## Screenshots
 
-![image](https://github.com/alexandaking/MinAn/1.png)
+![image](/1.png)
 
-![image](MinAn/1.png)
+![image](/1.png)
 
-![image](MinAn/2.png)
+![image](/2.png)
 
-![image](MinAn/3.png)
+![image](/3.png)
 
-![image](MinAn/4.png)
+![image](/4.png)
 
-![image](MinAn/5.png)
+![image](/5.png)
 
-![image](MinAn/6.png)
+![image](/6.png)
 
-![image](MinAn/7.png)
+![image](/7.png)
