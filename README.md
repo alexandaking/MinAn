@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![image](/1.png =200x365)
+![image](/1.png =200*365)
 
 ![image](/1.png)
 
