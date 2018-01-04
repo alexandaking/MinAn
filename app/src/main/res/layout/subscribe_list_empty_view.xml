@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ssxinmian4"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/subscribe_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginTop="50.0dip"
+        android:src="@drawable/not_article_loading" />
+
+    <TextView
+        android:id="@+id/subscribe_hint_above_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2.0dip"
+        android:layout_marginTop="13.0dip"
+        android:text="@string/empty_comment_hint"
+        android:textColor="@color/subscribe_empty_view_hint_text_color"
+        android:textSize="15.0sp" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/subscribe_hint_below_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subscribe_hint_text_2"
+        android:textColor="@color/subscribe_empty_view_hint_text_color"
+        android:layout_marginBottom="40dp"
+        android:textSize="15.0sp" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/subscribe_btn_layout"
+        android:layout_width="80.0dip"
+        android:layout_height="36.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:background="@drawable/bg_subscribe_fragment_list_header">
+
+        <TextView
+            android:id="@+id/subscribe_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="36.0dip"
+            android:layout_centerInParent="true"
+            android:drawablePadding="5.0dip"
+            android:gravity="center_vertical"
+            android:text="@string/add_pgc_subscribe"
+            android:textColor="@color/subscribe_text_color"
+            android:textSize="15.0sp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <View
+        android:id="@+id/my_page_message_divider"
+        style="@style/my_page_item_divider"
+        android:background="?attr/divider_light_grey"
+        app:isColorUi="true"
+        />
+
+    <!--2.底部功能-->
+    <include layout="@layout/activity_main_bottom_bar"/>
+
+</LinearLayout>

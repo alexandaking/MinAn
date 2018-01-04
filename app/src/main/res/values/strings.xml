@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">民安</string>
+
+    <string name="mine_item_favorite">收藏</string>
+    <string name="mine_item_night_mode">夜间模式</string>
+    <string name="mine_item_day_mode">日间模式</string>
+    <string name="mine_item_cache_clean">清除缓存</string>
+    <string name="mine_item_personal_info">个人信息</string>
+    <string name="mine_item_notification">消息通知</string>
+    <string name="mine_item_report">建议反馈</string>
+    <string name="mine_item_about_us">关于我们</string>
+    <string name="mine_item_setting">设置</string>
+    <string name="forum_introduce">话题介绍</string>
+    <string name="detail_write_comment">写评论…</string>
+    <string name="add_pgc_subscribe">添加订阅</string>
+    <string name="subscribe_hint_text_2"> 从这些账号开始吧！</string>
+    <string name="empty_comment_hint">暂无评论，点击抢沙发</string>
+    <string name="sos_info">援助热线是马中援助协会开通的免费咨询服务电话，由马来西来中正有限公司提供，最终解释权归中正有限公司所有。该热线为来马中国公民在马遇紧急情况下的救助热线，为中国公民提供指引与咨询，协助中国使领馆，提供领保、证件咨询等服务。</string>
+
+    <string name="opening_wechat">正在打开微信，请稍后...</string>
+    <string name="opening_qq">正在打开QQ，请稍后...</string>
+    <string name="opening_blog">正在打开微博，请稍后...</string>
+    <string name="setting_current_account">当前登录账号</string>
+    <string name="send_to">推荐给好友</string>
+    <string name="comment_us">给我们评价</string>
+    <string name="about_us">关于我们</string>
+    <string name="logout">退出当前账号</string>
+</resources>

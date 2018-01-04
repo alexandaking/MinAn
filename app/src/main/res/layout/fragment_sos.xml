@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              tools:ignore="MissingPrefix"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f40002"
+              android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sos_bg"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sos_line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="@string/sos_info"
+        android:textColor="?attr/divider_light_grey"
+        android:textSize="15sp"
+        app:isColorUi="true"/>
+
+
+    <ImageView
+        android:id="@+id/sos_call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/sos_btn"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

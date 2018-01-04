@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              tools:ignore="MissingPrefix"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!--1.顶部功能(左侧侧滑功能布局)-->
+    <include layout="@layout/activity_main_head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <ImageView
+            android:id="@+id/new_category_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="7.0dip"
+            android:layout_marginTop="6.0dip"
+            android:layout_toLeftOf="@+id/icon_category"
+            android:src="@drawable/ic_new_category_tip_dark"
+            android:visibility="gone" />
+
+        <my.zzm.minan.ui.view.colortrackview.ColorTrackTabLayout
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/main_bg"
+            app:isColorUi="true"
+            app:tabIndicatorColor="@color/ssxinhongse1"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/ssxinhongse1"
+            app:tabTextAppearance="@style/TextAppearanceBig"
+            app:tabTextColor="?attr/font_color" />
+
+        <ImageView
+            android:id="@+id/icon_category"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shadow_add_titlebar_new"
+            android:paddingLeft="5dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_category_expand"
+            app:isColorUi="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/divider_light_grey"
+        app:isColorUi="true"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>

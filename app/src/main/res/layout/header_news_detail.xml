@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/main_bg"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="珍藏了家四季度哦爱睡觉哦你按揭哦"
+        android:textColor="?attr/font_color"
+        android:textSize="22sp"
+        app:isColorUi="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tvUserName"
+                style="@style/new_title"
+                android:layout_width="match_parent"
+                android:text="景海"
+                android:textColor="?attr/font_color"
+                android:textSize="15sp"
+                app:isColorUi="true"/>
+
+            <TextView
+                android:id="@+id/tvDate"
+                style="@style/new_title"
+                android:layout_width="match_parent"
+                android:layout_marginTop="2dp"
+                android:text="前天"
+                android:textColor="?attr/font_color2"
+                android:textSize="12sp"
+                app:isColorUi="true"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+<!--<TextView-->
+    <!--android:textSize="18sp"-->
+    <!--android:lineSpacingExtra="5dp"-->
+    <!--android:textColor="?attr/font_color"-->
+    <!--android:id="@+id/test"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"/>-->
+    <my.zzm.minan.ui.view.ProgressWebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <my.zzm.minan.ui.view.HtmlTextView
+        android:textSize="18sp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="?attr/font_color"
+        android:id="@+id/tvHtmlContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_bar_layout"
+    style="@style/top_bar_layout_style">
+
+    <FrameLayout
+        android:id="@+id/top_avatar_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp">
+        <ImageView
+            android:id="@+id/top_head"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_avatar_white"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/user_verified"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="26dp"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/top_bar_logo"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/top_bar_logo"/>
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="马来西亚"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/top_avatar_container"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
+</RelativeLayout>

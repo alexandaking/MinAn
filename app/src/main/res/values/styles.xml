@@ -1,0 +1,172 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="clickableBackground">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Light" parent="AppTheme">
+        <!--<item name="android:windowBackground">@color/default_window_bg</item>-->
+        <item name="android:listSelector">?clickableBackground</item>
+        <item name="clickableBackground">@drawable/clickable_background</item>
+        <item name="font_color">@color/ssxinheihui1</item>
+        <item name="main_bg">@color/white</item>
+        <item name="font_color2">@color/ssxinzi3</item>
+        <item name="divider_black">@color/write_comment_divider_color</item>
+        <item name="divider_light_grey">@color/ssxinxian1</item>
+        <item name="font_red">@color/subscribe_category_btn_bg_normal</item>
+        <item name="white_bg">@color/white</item>
+        <item name="windowNoTitle">?android:windowNoTitle</item>
+    </style>
+
+    <style name="Theme.Night" parent="AppTheme">
+        <!--<item name="android:windowBackground">@color/default_window_bg_night</item>-->
+        <item name="android:listSelector">?clickableBackground</item>
+        <item name="clickableBackground">@drawable/clickable_background_night</item>
+        <item name="font_color">@color/ssxinheihui10_press</item>
+        <item name="main_bg">@color/ss_menu_text</item>
+        <item name="divider_black">@color/default_window_bg_night</item>
+        <item name="font_color2">@color/ssxinheihui10_press</item>
+        <item name="divider_light_grey">@color/ssxinheihui10_press</item>
+        <item name="font_red">@color/subscribe_category_btn_bg_pressed</item>
+        <item name="white_bg">@color/subscribe_category_bar_bg_night</item>
+        <item name="windowNoTitle">?android:windowNoTitle</item>
+    </style>
+    <!--<style name="the" parent="Theme.AppCompat.DayNight"/>-->
+
+    <style name="RecycleViewCommon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="Clickable">
+        <item name="android:background">@drawable/clickable_background</item>
+    </style>
+
+    <style name="new_info_layout_text_style">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/ssxinzi2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingExtra">0.0dip</item>
+    </style>
+
+    <style name="new_info_layout_line2_divider_style">
+        <item name="android:background">@drawable/new_info_layout_round_divider_shape</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">2.0dip</item>
+        <item name="android:layout_height">2.0dip</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+    </style>
+
+    <style name="new_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/new_title</item>
+    </style>
+
+    <style name="my_page_item_root" parent="@style/Clickable">
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">?attr/main_bg</item>
+    </style>
+
+    <style name="my_page_item_divider">
+        <item name="android:background">@color/ssxinxian1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+
+    <style name="my_page_item_right_arrow">
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/setting_arrow</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="my_page_item_tv">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">11.0dip</item>
+        <item name="android:paddingBottom">11.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="my_page_tagview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="toolbar_action">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_weight">0.0</item>
+    </style>
+
+    <style name="toolbar_action_comment">
+        <item name="android:textSize">8.0sp</item>
+        <item name="android:textColor">@color/action_comment_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/main_tab_badge_bg</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="title_bar_style">
+        <item name="android:background">@drawable/bg_titlebar</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_height</item>
+    </style>
+
+    <style name="topic_title_back_image">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:src">@drawable/leftbackicon_titlebar</item>
+    </style>
+
+    <style name="dialogSlideAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_bottom_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_bottom_slide_out</item>
+    </style>
+
+    <!--我的-->
+    <style name="top_bar_layout_style">
+        <item name="android:background">@drawable/shape_top_bar_layout</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">49dp</item>
+    </style>
+
+    <style name="TextAppearanceBig" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

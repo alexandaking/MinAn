@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_title">
+        <item>要闻</item>
+        <item>本地</item>
+        <item>政策</item>
+        <item>活动</item>
+        <item>志愿者</item>
+        <!--<item>体育</item>-->
+        <!--<item>连载</item>-->
+    </string-array>
+    <string-array name="home_title_code">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <!--<item>7</item>-->
+        <!--<item>8</item>-->
+    </string-array>
+</resources>

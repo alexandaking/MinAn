@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    tools:ignore="MissingPrefix"
+    app:isColorUi="true">
+
+    <RelativeLayout
+        android:id="@+id/layout_setting_current_account"
+        style="@style/my_page_item_root"
+        android:background="?attr/main_bg"
+        android:layout_marginTop="15dp"
+        app:isColorUi="true">
+
+        <TextView
+            android:id="@+id/txt_setting_current_account"
+            style="@style/my_page_item_tv"
+            android:text="@string/setting_current_account"
+            android:textColor="?attr/font_color"
+            app:isColorUi="true"/>
+
+        <View
+            android:id="@+id/setting_current_account_divider"
+            style="@style/my_page_item_divider"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/divider_light_grey"
+            app:isColorUi="true"/>
+
+        <TextView
+            android:id="@+id/txt_setting_current_account_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:textColor="@color/ssxinzi3"
+            android:textSize="12.0sp"
+            tools:ignore="RelativeOverlap,RtlHardcoded" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_send_to"
+        style="@style/my_page_item_root"
+        android:background="?attr/main_bg"
+        app:isColorUi="true">
+
+        <TextView
+            android:id="@+id/txt_send_to"
+            style="@style/my_page_item_tv"
+            android:text="@string/send_to"
+            android:textColor="?attr/font_color"
+            app:isColorUi="true"/>
+
+
+        <ImageView
+            android:id="@+id/img_send_to_right_arrow"
+            style="@style/my_page_item_right_arrow"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:background="?attr/divider_light_grey"
+            app:isColorUi="true"
+            android:id="@+id/my_page_message_divider"
+            style="@style/my_page_item_divider"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_comment_us"
+        style="@style/my_page_item_root"
+        android:background="?attr/main_bg"
+        app:isColorUi="true">
+
+        <TextView
+            android:id="@+id/txt_comment_us"
+            style="@style/my_page_item_tv"
+            android:text="@string/comment_us"
+            android:textColor="?attr/font_color"
+            app:isColorUi="true"/>
+
+        <ImageView
+            android:id="@+id/img_comment_us_right_arrow"
+            style="@style/my_page_item_right_arrow"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:background="?attr/divider_light_grey"
+            app:isColorUi="true"
+            android:id="@+id/my_page_offline_divider"
+            style="@style/my_page_item_divider"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_about_us"
+        style="@style/my_page_item_root"
+        android:background="?attr/main_bg"
+        app:isColorUi="true">
+
+        <TextView
+            android:id="@+id/txt_about_us"
+            style="@style/my_page_item_tv"
+            android:text="@string/about_us"
+            android:textColor="?attr/font_color"
+            app:isColorUi="true"/>
+
+
+        <ImageView
+            android:id="@+id/img_about_us_right_arrow"
+            style="@style/my_page_item_right_arrow"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:background="?attr/divider_light_grey"
+            app:isColorUi="true"
+            android:id="@+id/my_page_activity_divider"
+            style="@style/my_page_item_divider"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/layout_logout"
+        style="@style/my_page_item_root"
+        android:background="?attr/main_bg"
+        android:layout_marginTop="50dp"
+        app:isColorUi="true">
+
+        <TextView
+            android:id="@+id/txt_logout"
+            style="@style/my_page_item_tv"
+            android:text="@string/logout"
+            android:textColor="?attr/font_color"
+            app:isColorUi="true"/>
+
+
+        <ImageView
+            android:id="@+id/img_logout_right_arrow"
+            style="@style/my_page_item_right_arrow"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:background="?attr/divider_light_grey"
+            app:isColorUi="true"
+            android:id="@+id/my_page_logout_divider"
+            style="@style/my_page_item_divider"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

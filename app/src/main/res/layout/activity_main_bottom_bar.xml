@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llBottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingPrefix"
+    android:background="?attr/main_bg"
+    android:orientation="horizontal"
+    app:isColorUi="true">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivIconHome"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tabbar_home_selector"
+                app:isColorUi="true"/>
+
+            <TextView
+                android:id="@+id/tvTextHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivIconHome"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="主页"
+                android:textColor="?attr/font_color"
+                android:textSize="12sp"
+                app:isColorUi="true"/>
+
+            <TextView
+                android:id="@+id/tvBadgeHome"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_toRightOf="@+id/ivIconHome"
+                android:background="@drawable/shape_round_red"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivIconSOS"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="4dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tabbar_sos_selector"
+                app:isColorUi="true"/>
+
+            <TextView
+                android:id="@+id/tvTextSOS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivIconSOS"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="民安热线"
+                android:textColor="?attr/font_color"
+                android:textSize="12sp"
+                app:isColorUi="true"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivIconServices"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tabbar_services_selector"
+                app:isColorUi="true"/>
+
+            <TextView
+                android:id="@+id/tvTextServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivIconServices"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="服务"
+                android:textColor="?attr/font_color"
+                android:textSize="12sp"
+                app:isColorUi="true"/>
+
+        </RelativeLayout>
+</LinearLayout>
