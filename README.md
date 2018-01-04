@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![image](MinAn/1.png)
+![image](https://github.com/alexandaking/MinAn/1.png)
 
 ![image](MinAn/1.png)
 
