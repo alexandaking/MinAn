@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![img-w150](/1.png)
+![image](/1.png)
 
 ![image](/1.png)
 
